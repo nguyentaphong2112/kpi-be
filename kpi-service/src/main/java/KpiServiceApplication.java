@@ -21,7 +21,7 @@ import java.util.TimeZone;
 @SpringBootApplication
 @ComponentScan(basePackages = {"vn.kpi"})
 @EnableJpaRepositories(basePackages = "vn.kpi")
-@EntityScan("vn.hbtplus")
+@EntityScan("vn.kpi")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @EnableFeignClients(basePackages = "vn.kpi.feigns")
 @EnableJasypt(key = "vcc@#1232023")
