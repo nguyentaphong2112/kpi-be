@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.scheduling.annotation.EnableScheduling;
-import vn.hbtplus.annotations.EnableJasypt;
+import vn.kpi.annotations.EnableJasypt;
 
 import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
@@ -19,11 +19,11 @@ import java.time.ZoneId;
 import java.util.TimeZone;
 
 @SpringBootApplication
-@ComponentScan(basePackages = {"vn.hbtplus"})
-@EnableJpaRepositories(basePackages = "vn.hbtplus")
+@ComponentScan(basePackages = {"vn.kpi"})
+@EnableJpaRepositories(basePackages = "vn.kpi")
 @EntityScan("vn.hbtplus")
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-@EnableFeignClients(basePackages = "vn.hbtplus")
+@EnableFeignClients(basePackages = "vn.kpi")
 @EnableJasypt(key = "vcc@#1232023")
 @EnableScheduling
 @EnableSchedulerLock(defaultLockAtMostFor = "20m")

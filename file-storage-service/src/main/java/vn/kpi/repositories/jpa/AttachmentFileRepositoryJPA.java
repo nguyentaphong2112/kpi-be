@@ -1,0 +1,29 @@
+/*
+ * Copyright (C) 2023 HBTPlus. All rights reserved.
+ * HBTPlus. Use is subject to license terms.
+ */
+package vn.kpi.repositories.jpa;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+import vn.kpi.repositories.entity.AttachmentFileEntity;
+
+import java.util.List;
+
+/**
+ * Lop repository JPA ung voi bang sys_categories
+ * @author tudd
+ * @since 1.0
+ * @version 1.0
+ */
+
+@Repository
+public interface AttachmentFileRepositoryJPA extends JpaRepository<AttachmentFileEntity, Long> {
+
+    AttachmentFileEntity getByFileId(String fileId);
+    @Query("from AttachmentFileEntity a " +
+            " where a.fileId in (:listFileId)" +
+            " and a.isDeleted = 'N'")
+    List<AttachmentFileEntity> getByListFileId(List<String> listFileId);
+}

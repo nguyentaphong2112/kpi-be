@@ -1,0 +1,13 @@
+package vn.kpi.models.response;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import vn.kpi.models.BaseResponse;
+
+import java.util.List;
+
+public class ListResponseEntity<T> extends ResponseEntity<BaseResponse<List<T>>> {
+    public ListResponseEntity(BaseResponse<List<T>> body) {
+        super(body, HttpStatus.OK);
+    }
+}

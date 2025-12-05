@@ -1,0 +1,72 @@
+package vn.kpi.models.dto;
+
+import lombok.Data;
+import vn.kpi.models.response.ContactAddressesResponse;
+import vn.kpi.models.response.EmployeesResponse;
+import vn.kpi.models.response.ObjectAttributesResponse;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+@Data
+public class EmployeeInfoDto {
+    private Long employeeId;
+    private String employeeCode;
+    private String fullName;
+    private String email;
+    private String positionTitle;
+    private String positionName;
+    private String otherPositionName;
+    private String mobileNumber;
+    private Date dateOfBirth;
+    private String jobName;
+    private String organizationName;
+    private Long organizationId;
+    private Long jobId;
+    private Long positionId;
+    private String genderName;
+    private String nationName;
+    private String ethnicName;
+    private String religionName;
+    private String maritalStatusName;
+    private String educationLevelName;
+    private String bankAccount;
+    private String identityType;
+    private String identityNo;
+    private Date identityIssueDate;
+    private String identityIssuePlace;
+    private String taxNo;
+    private String genderId;
+    private String religionId;
+    private String ethnicId;
+    private String maritalStatusId;
+    private String educationLevelId;
+    private String personalEmail;
+    private String empTypeName;
+    private String contractTypeName;
+    private String insuranceNo;
+    private String originalAddress;
+    private String placeOfBirth;
+    private String permanentAddress;
+    private String currentAddress;
+    private String majorLevelName;
+    private String majorName;
+    private String statusName;
+    private String status;
+    private String trainingSchoolName;
+    private String promotionRankName;
+    private String promotionRankCode;
+    private Integer promotionRankYear;
+
+    private String partyNumber;
+    private Date partyDate;
+    private String partyPlace;
+    private Date partyOfficialDate;
+    private Integer seniority;
+    private String familyPolicyName;
+    private String selfPolicyName;
+    private List<EmployeesResponse.InfoBean> infoBeans = new ArrayList<>();
+    private List<ObjectAttributesResponse> listAttributes;
+    private List<ContactAddressesResponse.DetailBean> listContactAddresses;
+}

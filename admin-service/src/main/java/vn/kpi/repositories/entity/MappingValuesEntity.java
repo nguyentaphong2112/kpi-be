@@ -1,0 +1,56 @@
+/*
+ * Copyright (C) 2022 HBTPlus. All rights reserved.
+ * HBTPlus. Use is subject to license terms.
+ */
+package vn.kpi.repositories.entity;
+
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.GenerationType;
+import javax.persistence.Table;
+import lombok.Data;
+
+import java.util.Date;
+import javax.persistence.Temporal;
+
+
+/**
+ * Lop entity ung voi bang sys_mapping_values
+ * @author tudd
+ * @since 1.0
+ * @version 1.0
+ */
+
+@Data
+@Entity
+@Table(name = "sys_mapping_values")
+public class MappingValuesEntity extends BaseEntity {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "mapping_value_id")
+    private Long mappingValueId;
+
+    @Column(name = "parameter")
+    private String parameter;
+
+    @Column(name = "value")
+    private String value;
+
+    @Column(name = "start_date")
+    @Temporal(javax.persistence.TemporalType.DATE)
+    private Date startDate;
+
+    @Column(name = "end_date")
+    @Temporal(javax.persistence.TemporalType.DATE)
+    private Date endDate;
+
+    @Column(name = "config_mapping_code")
+    private String configMappingCode;
+
+
+}

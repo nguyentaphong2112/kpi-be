@@ -1,0 +1,36 @@
+package vn.kpi.repositories.entity;
+
+import lombok.Data;
+import org.springframework.data.domain.AuditorAware;
+
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Data
+@Entity
+@Table(name = "sys_attachments")
+@EntityListeners(AuditorAware.class)
+public class AttachmentEntity extends BaseEntity {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "attachment_id")
+    private Long attachmentId;
+
+    @Column(name = "file_id")
+    private String fileId;
+    @Column(name = "file_name")
+    private String fileName;
+    @Column(name = "object_id")
+    private Long objectId;
+    @Column(name = "table_name")
+    private String tableName;
+    @Column(name = "function_code")
+    private String functionCode;
+}
