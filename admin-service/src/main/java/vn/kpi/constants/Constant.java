@@ -1,24 +1,16 @@
 package vn.kpi.constants;
 
 public class Constant {
-    public interface ROLE_CODES {
-        String ADMIN_FEEDBACK = "ADMIN_FEEDBACK";
-    }
 
     public interface RESOURCES {
         String USER = "SYS_USER";
         String CONFIG_PAGE = "SYS_CONFIG_PAGE";
         String CONFIG_PARAMETER = "SYS_CONFIG_PARAMETER";
-        String WARNING_CONFIG = "SYS_WARNING_CONFIGS";
-        String DYNAMIC_REPORTS = "SYS_DYNAMIC_REPORT";
         String RESOURCE = "SYS_RESOURCES";
-        String CATEGORY = "SYS_CATEGORY";
         String CATEGORY_TYPE = "SYS_CATEGORY_TYPE";
         String ROLE = "SYS_ROLES";
         String USER_ROLE = "SYS_USER_ROLE";
         String CONFIG_OBJECT_ATTRIBUTE = "SYS_CONFIG_ATTRIBUTE";
-        String USER_BOOKMARKS = "SYS_USER_BOOKMARKS";
-        String SYS_CARD_TEMPLATES = "SYS_CARD_TEMPLATES";
         String SYS_CONFIG_CHART = "SYS_CONFIG_CHART";
         String SYS_MAPPING_VALUES = "SYS_MAPPING_VALUES";
     }

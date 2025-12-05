@@ -13,19 +13,8 @@
         <module>core-service</module>
         <module>admin-service</module>
         <module>hrm-service</module>
-        <module>library-service</module>
         <module>file-storage-service</module>
         <module>kpi-service</module>
-        <module>abs-service</module>
-        <module>crm-service</module>
-        <module>lms-service</module>
-		<module>pit-service</module>
-		<module>icn-service</module>
-		<module>pns-service</module>
-        <module>mat-service</module>
-        <module>ws-service</module>
-		<module>ptx-service</module>
-		<module>exam-service</module>
     </modules>
 
     <properties>
