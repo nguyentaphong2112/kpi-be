@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>icn_contributions</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>1000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" length="10" nullable="true" duplicate="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+    <col title="common.label.period.from" type="string"  length="7" nullable="false"/>
+    <col title="common.label.period.to" type="string"  length="7" nullable="false"/>
+    <col title="icn.retroMedical.isPersonalPayed" type="string"  length="1" nullable="true"/>
+    <col title="icn.retroMedical.isUnitPayed" type="string"  length="1" nullable="true"/>
+    <col title="common.label.note" type="string"  length="255" nullable="true"/>
+</root>

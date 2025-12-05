@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_evaluation_result</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false" duplicate="false"/>
+    <col title="Họ và tên" type="string"  length="500" nullable="false"/>
+    <col title="Kết quả đánh giá" type="string"  length="200" nullable="false"/>
+    <col title="Điểm đánh giá" type="double"  length="5" nullable="false"/>
+    <col title="Ghi chú" type="string"  length="100" nullable="true"/>
+</root>

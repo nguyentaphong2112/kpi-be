@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>abs_work_calendar_details</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+	<col title="global.dateTimekeeping" type="date"  length="10" nullable="false"/>
+	<col title="global.workDayTime" type="string"  length="200" nullable="false"/>
+	<col title="global.description" type="string"  length="200" nullable="true"/>
+</root>

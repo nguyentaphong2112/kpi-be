@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_family_relationships</tableName>
+    <firstDataRow>5</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="50" nullable="false"/>
+    <col title="Mối quan hệ" type="string"  length="50" nullable="false"/>
+    <col title="Họ tên" type="string"  length="50" nullable="false"/>
+    <col title="Ngày" type="string"  length="50" nullable="true"/>
+    <col title="Tháng" type="string"  length="50" nullable="true"/>
+    <col title="Năm" type="string"  length="50" nullable="false"/>
+    <col title="Tình trạng" type="string"  length="50" nullable="false"/>
+    <col title="Đối tượng chính sách" type="string"  length="50" nullable="true"/>
+    <col title="Số CCCD" type="string"  length="50" nullable="true"/>
+    <col title="Số ĐT" type="string"  length="50" nullable="true"/>
+    <col title="Nghề nghiệp" type="string"  length="50" nullable="true"/>
+    <col title="Đơn vị công tác" type="string"  length="50" nullable="true"/>
+    <col title="Địa chỉ hiện tại" type="string"  length="500" nullable="true"/>
+</root>

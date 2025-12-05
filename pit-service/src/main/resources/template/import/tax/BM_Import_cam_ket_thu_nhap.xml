@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>pit_tax_commitments</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" length="10" nullable="false" duplicate="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+    <col title="global.commit.income.amount" type="long"  length="10" nullable="false"/>
+    <col title="global.startDate" type="string"  length="7" nullable="false"/>
+	<col title="global.endDate" type="string"  length="7" nullable="true"/>
+    <col title="global.note" type="string"  length="500" nullable="true"/>
+</root>

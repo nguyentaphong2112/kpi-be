@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>lms_mentoring_trainers</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="mentoringTrainer.employeeCode" type="string"  length="10" nullable="false"/>
+    <col title="mentoringTrainer.employeeName" type="string"  length="500" nullable="false"/>
+    <col title="mentoringTrainer.roleId" type="string"  length="500" nullable="false"/>
+    <col title="mentoringTrainer.startDate" type="date"  length="500" nullable="false"/>
+    <col title="mentoringTrainer.endDate" type="date"  length="500" nullable="false"/>
+    <col title="mentoringTrainer.majorId" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainer.hospitalId" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainer.content" type="string"  length="1000" nullable="true"/>
+    <col title="mentoringTrainer.className" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainer.totalLessons" type="long"  length="4" nullable="false"/>
+    <col title="mentoringTrainer.totalClasses" type="long"  length="5" nullable="false"/>
+    <col title="mentoringTrainer.totalStudents" type="long"  length="5" nullable="false"/>
+    <col title="mentoringTrainer.totalExaminations" type="long"  length="4" nullable="false"/>
+    <col title="mentoringTrainer.totalSurgeries" type="long"  length="255" nullable="false"/>
+    <col title="mentoringTrainer.totalTests" type="long"  length="255" nullable="false"/>
+</root>

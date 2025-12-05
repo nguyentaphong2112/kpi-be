@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>crm_course_lesson_results</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="Họ tên và SĐT" type="string" length="255" nullable="false" duplicate="false"/>
+    <col title="Trạng thái" type="string" length="20" nullable="true"/>
+    <col title="Điểm" type="double" length="255" nullable="true" max="100"/>
+    <col title="Nhận xét" type="string" length="255" nullable="true"/>
+</root>

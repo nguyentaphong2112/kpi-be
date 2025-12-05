@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>fpn_document_groups</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="building.document.import.group" type="string" length="50" nullable="false" duplicate="false"/>
+    <col title="building.document.import.duration" type="string"  length="255" ignore="false" />
+	<col title="building.document.import.note" type="string"  length="255" ignore="false" />
+</root>

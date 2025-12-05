@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_planning_assignments</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="500" nullable="false"/>
+    <col title="Giai đoạn quy hoạch" type="string"  length="200" nullable="false"/>
+    <col title="Chức vụ quy hoạch" type="string"  length="200" nullable="false"/>
+    <col title="Số QĐ" type="string"  length="200" nullable="true"/>
+    <col title="Ngày ký QĐ" type="date"  length="10" nullable="true"/>
+    <col title="Ngày hiệu lực" type="date"  length="10" nullable="false"/>
+    <col title="Ngày đưa ra khỏi quy hoạch" type="date"  length="10" nullable="true"/>
+    <col title="Lý do đưa ra khỏi quy hoạch" type="string"  length="200" nullable="true"/>
+    <col title="Số QĐ đưa ra khỏi quy hoạch" type="string"  length="200" nullable="true"/>
+    <col title="Ngày ký QĐ đưa ra khỏi quy hoạch" type="date"  length="10" nullable="true"/>
+</root>

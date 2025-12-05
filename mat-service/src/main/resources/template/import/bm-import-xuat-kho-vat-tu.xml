@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>fpn_equipments</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="Mã vật tư" type="string" length="50" nullable="false" duplicate="false"/>
+    <col title="Tên vật tư" type="string" length="500" nullable="false" duplicate="false"/>
+    <col title="Đơn giá" type="double" length="20" nullable="false" duplicate="true"/>
+    <col title="Số lượng tồn" type="double" length="20" nullable="true" duplicate="true"/>
+    <col title="Số lượng xuất kho" type="double" length="20" nullable="false" duplicate="true"/>
+</root>

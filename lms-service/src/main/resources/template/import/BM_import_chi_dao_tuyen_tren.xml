@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>lms_mentoring_trainees</tableName>
+    <firstDataRow>5</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="mentoringTrainees.employeeName" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainees.startDate" type="date"  length="255" nullable="false"/>
+    <col title="mentoringTrainees.endDate" type="date"  length="255" nullable="false"/>
+    <col title="mentoringTrainees.documentNo" type="string"  length="50" nullable="true"/>
+    <col title="mentoringTrainees.projectName" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainees.hospitalName" type="string"  length="255" nullable="false"/>
+    <col title="mentoringTrainees.totalLessons" type="long"  length="5" nullable="true"/>
+    <col title="mentoringTrainees.content" type="string"  length="255" nullable="false"/>
+</root>

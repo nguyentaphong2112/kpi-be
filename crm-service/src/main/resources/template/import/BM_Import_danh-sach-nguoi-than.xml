@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>crm_family_relationships</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="Họ và tên" type="string" length="255" nullable="false"/>
+    <col title="Mối quan hệ" type="string" length="255" nullable="false"/>
+    <col title="Tình trạng thân nhân" type="string" length="255" nullable="true"/>
+    <col title="Ngày sinh" type="date" length="10" nullable="true"/>
+    <col title="Phụ huynh" type="string"  length="255" nullable="false"/>
+    <col title="Số điện thoại" type="string"  length="255" nullable="false"/>
+    <col title="Email" type="string"  length="255" nullable="true"/>
+    <col title="Tài khoản zalo" type="string"  length="255" nullable="true"/>
+    <col title="Facebook" type="string"  length="255" nullable="true"/>
+    <col title="Nghề nghiệp" type="string"  length="255" nullable="true"/>
+    <col title="Đơn vị công tác" type="string"  length="255" nullable="true"/>
+    <col title="Tỉnh" type="string"  length="255" nullable="true"/>
+    <col title="Huyện" type="string"  length="255" nullable="true"/>
+    <col title="Xã" type="string"  length="255" nullable="true"/>
+    <col title="Số nhà, đường" type="string"  length="255" nullable="true"/>
+</root>

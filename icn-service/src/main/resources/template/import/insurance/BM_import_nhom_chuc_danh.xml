@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>pit_tax_commitments</tableName>
+    <firstDataRow>5</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.job.name" type="string" length="255" nullable="false"/>
+    <col title="global.org.org_level1" type="string"  length="255" ignore="false"/>
+    <col title="global.org.org_level2" type="string"  length="255" ignore="false"/>
+    <col title="global.org.org_level3" type="string"  length="255" ignore="false"/>
+	<col title="global.org.org_level4" type="string"  length="255" ignore="false"/>
+    <col title="global.org.org_level5" type="string"  length="255" ignore="false"/>
+    <col title="position.group.mapping.category" type="string"  length="50" nullable="false" />
+    <col title="position.group.mapping.value" type="string"  length="255" nullable="false"/>
+</root>

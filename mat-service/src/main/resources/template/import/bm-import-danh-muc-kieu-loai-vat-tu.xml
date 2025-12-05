@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>fpn_equipment_groups</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="equipment.group.import.code" type="string" length="50" nullable="false" duplicate="false"/>
+    <col title="equipment.group.import.symbol" type="string"  length="255" ignore="false" nullable="false"/>
+    <col title="equipment.group.import.name" type="string"  length="500" ignore="false" nullable="false" duplicate="false"/>
+    <col title="equipment.group.import.note" type="string"  length="500" ignore="false"/>
+    <col title="equipment.group.import.description" type="string"  length="500" ignore="false"/>
+</root>

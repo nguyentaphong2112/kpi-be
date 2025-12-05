@@ -1,0 +1,62 @@
+/*
+ * Copyright (C) 2023 HBTPlus. All rights reserved.
+ * HBTPlus. Use is subject to license terms.
+ */
+package vn.hbtplus.models.request;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
+import java.util.Date;
+import javax.validation.constraints.*;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
+import vn.hbtplus.constants.BaseConstants;
+import vn.hbtplus.utils.StrimDeSerializer;
+import io.swagger.v3.oas.annotations.media.Schema;
+import vn.hbtplus.models.BaseSearchRequest;
+
+/**
+ * Lop DTO ung voi bang hr_position_group_values
+ * @author tudd
+ * @since 1.0
+ * @version 1.0
+ */
+
+@Data
+@NoArgsConstructor
+public class PositionGroupValuesRequest extends BaseSearchRequest {
+
+    @Data
+    @NoArgsConstructor
+    @Schema(name = "PositionGroupValuesSubmitForm")
+    public static class SubmitForm {
+        private Long positionGroupValueId;
+
+        private Long positionId;
+
+        @Size(max = 50)
+        @JsonDeserialize(using = StrimDeSerializer.class)
+        private String groupTypeId;
+
+        private Long positionGroupId;
+
+    }
+
+    @Data
+    @NoArgsConstructor
+    @Schema(name = "PositionGroupValuesSearchForm")
+    public static class SearchForm extends BaseSearchRequest{
+
+        private Long positionGroupValueId;
+
+        private Long positionId;
+
+        @Size(max = 50)
+        @JsonDeserialize(using = StrimDeSerializer.class)
+        private String groupTypeId;
+
+        private Long positionGroupId;
+
+    }
+}

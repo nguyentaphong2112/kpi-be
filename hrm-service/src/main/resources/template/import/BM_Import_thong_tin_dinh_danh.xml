@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_personal_identities</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="20" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="255" nullable="true"/>
+    <col title="Số giấy tờ" type="string"  length="50" nullable="false" duplicate="false"/>
+    <col title="Nơi cấp" type="string"  length="255" nullable="false"/>
+    <col title="Ngày cấp" type="date"  length="10" nullable="false"/>
+    <col title="Ngày hết hạn (nếu có)" type="date"  length="10" nullable="true"/>
+</root>

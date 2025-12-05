@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_personal_identities</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="20" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="255" nullable="true"/>
+    <col title="Số tài khoản" type="string"  length="25" nullable="false" duplicate="false"/>
+    <col title="Ngân hàng" type="string"  length="500" nullable="false"/>
+    <col title="Chi nhánh" type="string"  length="255" nullable="true"/>
+    <col title="Là tài khoản nhận lương" type="string"  length="10" nullable="true"/>
+</root>

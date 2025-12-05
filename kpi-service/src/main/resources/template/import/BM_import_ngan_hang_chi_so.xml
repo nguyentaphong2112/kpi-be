@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>kpi_indicator_conversions</tableName>
+    <firstDataRow>7</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="indicator.name" type="string"  length="500" nullable="false" duplicate="false"/>
+    <col title="indicatorConversions.5" type="string"  length="500" nullable="true"/>
+    <col title="indicatorConversions.4" type="string"  length="500" nullable="true"/>
+    <col title="indicatorConversions.3" type="string"  length="500" nullable="true"/>
+    <col title="indicatorConversions.2" type="string"  length="500" nullable="true"/>
+    <col title="indicatorConversions.1" type="string"  length="500" nullable="true"/>
+    <col title="indicator.conversionType" type="string"  length="255" nullable="true"/>
+    <col title="indicator.isRequired" type="string"  length="20" nullable="true"/>
+    <col title="indicator.note" type="string"  length="500" nullable="true"/>
+</root>

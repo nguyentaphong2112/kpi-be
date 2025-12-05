@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_project_members</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" length="10" nullable="true"/>
+	<col title="Số CMT/CCCD" type="string"  length="12" nullable="true"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+	<col title="Mã số thuế" type="string"  length="10" nullable="false"/>
+	<col title="Năm" type="long"  length="4" nullable="false" min="1900" max="2999"/>
+    <col title="Email" type="string"  length="200" nullable="false"/>
+	<col title="Đơn vị quản lý" type="string"  length="200" nullable="false"/>
+	<col title="Ghi chú" type="string"  length="500" nullable="true"/>
+</root>

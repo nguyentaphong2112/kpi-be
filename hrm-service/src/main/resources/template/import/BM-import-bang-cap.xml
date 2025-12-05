@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_education_degrees</tableName>
+    <firstDataRow>5</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="50" nullable="false"/>
+    <col title="Trình độ" type="string"  length="50" nullable="false"/>
+    <col title="Chuyên ngành" type="string"  length="50" nullable="false"/>
+    <col title="Trường đào tạo" type="string"  length="50" nullable="false"/>
+    <col title="Loại hình đào tạo" type="string"  length="50" nullable="true"/>
+    <col title="Năm tốt nghiệp" type="string"  length="50" nullable="true"/>
+</root>

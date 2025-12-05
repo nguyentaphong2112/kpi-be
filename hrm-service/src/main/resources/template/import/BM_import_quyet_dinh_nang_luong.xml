@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_insurance_salary_process</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false" duplicate="false"/>
+    <col title="Họ và tên" type="string"  length="500" nullable="false"/>
+    <col title="Số quyết định" type="string"  length="500" nullable="false"/>
+    <col title="Ngày ký quyết định" type="date"  length="10" nullable="false"/>
+    <col title="Ghi chú" type="string"  length="500" nullable="true"/>
+</root>

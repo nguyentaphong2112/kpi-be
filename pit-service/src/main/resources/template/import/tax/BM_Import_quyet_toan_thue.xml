@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>pit_tax_settlement_details</tableName>
+    <firstDataRow>6</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" length="10" nullable="true" duplicate="false"/>
+    <col title="global.employee.fullName" type="string"  length="100" nullable="false"/>
+    <col title="global.taxNumber" type="string"  length="10" nullable="true"/>
+    <col title="global.personalId" type="string"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.incomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.taxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.insuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.numOfDependents" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.selfDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.dependentDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.totalIncomeTaxable" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.totalInsuranceDeduction" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.totalTaxCollected" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.totalIncomeTax" type="long"  length="20" nullable="true"/>
+    <col title="pit.taxSettlement.totalTaxPayed" type="long"  length="20" nullable="true"/>
+    <col title="global.note" type="string"  length="500" nullable="true"/>
+</root>

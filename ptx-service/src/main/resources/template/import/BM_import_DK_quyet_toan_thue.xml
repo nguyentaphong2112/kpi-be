@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>ptx_declaration_registers</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10" />
+    <col title="global.employeeCode" type="string" length="10" nullable="false" duplicate="false"/>
+    <col title="global.fullName" type="string"  length="100" nullable="false"/>
+
+    <col title="global.year" type="long" length="5" nullable="false"/>
+    <col title="global.methodCodeDeclaration" type="string"  length="100" nullable="false"/>
+    <col title="global.isRev" type="string"  length="50" nullable="true" />
+    <col title="global.note" type="string"  length="500" nullable="true"/>
+</root>

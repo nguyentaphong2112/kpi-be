@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>kpi_indicators</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="indicator.name" type="string"  length="500" nullable="false"/>
+    <col title="indicator.unitId" type="string"  length="500" nullable="false"/>
+    <col title="indicator.periodType" type="string"  length="500" nullable="false"/>
+    <col title="indicator.significance" type="string"  length="500" nullable="false"/>
+    <col title="indicator.measurement" type="string"  length="500" nullable="false"/>
+    <col title="indicator.systemInfo" type="string"  length="500" nullable="false"/>
+    <col title="indicator.type" type="string"  length="500" nullable="false"/>
+    <col title="indicator.org" type="string"  length="500" nullable="false"/>
+    <col title="indicator.note" type="string"  length="500" nullable="true"/>
+</root>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_insurance_salary_process</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="500" nullable="false"/>
+    <col title="Đối tượng" type="string"  length="200" nullable="false"/>
+    <col title="Mã ngach" type="string"  length="50" nullable="false"/>
+    <col title="Tên Ngạch/ CDNN" type="string"  length="500" nullable="false"/>
+    <col title="Bậc" type="string"  length="50" nullable="false"/>
+    <col title="Hệ số" type="double"  length="15" nullable="false"/>
+    <col title="Hệ số chênh lệch bảo lưu" type="double"  length="5" nullable="true"/>
+    <col title="Tỷ lệ hưởng" type="long"  length="3" nullable="true"/>
+    <col title="Ngày áp dụng" type="date"  length="10" nullable="false"/>
+    <col title="Mốc xét nâng lương" type="date"  length="10" nullable="false"/>
+    <col title="Là quá trình nâng lương trước hạn" type="string"  length="100" nullable="true"/>
+    <col title="Số QĐ" type="string"  length="100" nullable="true"/>
+    <col title="Ngày ký QĐ" type="date"  length="10" nullable="true"/>
+    <col title="Ghi chú" type="string"  length="100" nullable="true"/>
+</root>

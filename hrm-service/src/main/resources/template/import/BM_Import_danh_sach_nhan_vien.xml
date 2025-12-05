@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_employees</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="20" nullable="true"/>
+    <col title="Họ và tên" type="string"  length="255" nullable="false"/>
+    <col title="Giới tính" type="string"  length="20" nullable="false"/>
+    <col title="Ngày sinh" type="date"  length="10" nullable="false"/>
+    <col title="Số điện thoại" type="string"  length="50" nullable="true"/>
+    <col title="Email" type="string"  length="255" nullable="true"/>
+    <col title="Khoa/Phòng" type="string"  length="500" nullable="false"/>
+    <col title="Tổ nhóm" type="string"  length="500" nullable="true"/>
+    <col title="Chức vụ" type="string"  length="500" nullable="true"/>
+    <col title="Chức danh công việc" type="string"  length="500" nullable="false"/>
+    <col title="Đối tượng" type="string"  length="255" nullable="false"/>
+    <col title="Loại hợp đồng" type="string"  length="255" nullable="false"/>
+    <col title="Ngày hiệu lực" type="date"  length="10" nullable="true"/>
+    <col title="Ngày hết hạn" type="date"  length="10" nullable="true"/>
+    <col title="Số HĐ" type="string"  length="50" nullable="true"/>
+    <col title="Số CCCD" type="string"  length="50" nullable="false" duplicate="false"/>
+    <col title="Ngày cấp CCCD" type="date"  length="10" nullable="false"/>
+    <col title="Nơi cấp CCCD" type="string"  length="255" nullable="false"/>
+    <col title="Số sổ BHXH" type="string"  length="50" nullable="true"/>
+    <col title="Mã số thuế" type="string"  length="50" nullable="true"/>
+    <col title="Số tài khoản" type="string"  length="50" nullable="true"/>
+    <col title="Ngân hàng" type="string"  length="500" nullable="true"/>
+    <col title="Chi nhánh" type="string"  length="255" nullable="true"/>
+    <col title="Trình độ" type="string"  length="255" nullable="true"/>
+    <col title="Chuyên ngành" type="string"  length="255" nullable="true"/>
+    <col title="Trường đào tạo" type="string"  length="255" nullable="true"/>
+    <col title="Hình thức đào tạo" type="string"  length="500" nullable="true"/>
+    <col title="Năm tốt nghiệp" type="long"  length="4" nullable="true"/>
+</root>

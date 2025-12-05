@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_award_process</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="500" nullable="false"/>
+    <col title="Danh hiệu/hình thức khen thưởng" type="string"  length="200" nullable="false"/>
+    <col title="Năm" type="long"  length="4" nullable="false"/>
+    <col title="Số QĐ" type="string"  length="500" nullable="false"/>
+    <col title="Ngày ký QĐ" type="date"  length="10" nullable="false"/>
+</root>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>crm_customers</tableName>
+    <firstDataRow>4</firstDataRow>
+    <maxNumberOfRecord>50000</maxNumberOfRecord>
+    <col title="STT" type="long"  length="10"/>
+    <col title="Họ tên học viên" type="string" length="255" nullable="false"/>
+    <col title="Số điện thoại học viên" type="string" length="20" nullable="false"/>
+    <col title="Họ tên người kèm" type="string" length="255" nullable="false"/>
+    <col title="Số điện thoại người kèm" type="string" length="20" nullable="false"/>
+</root>

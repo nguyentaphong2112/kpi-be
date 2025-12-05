@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <tableName>hr_health_records</tableName>
+    <firstDataRow>3</firstDataRow>
+    <maxNumberOfRecord>10000</maxNumberOfRecord>
+    <col title="STT" type="long" length="10" />
+    <col title="Mã nhân viên" type="string"  length="50" nullable="false"/>
+    <col title="Họ và tên" type="string"  length="50" nullable="false"/>
+    <col title="Đợt khám sức khỏe" type="string"  length="500" nullable="false"/>
+    <col title="Ngày khám" type="date"  length="10" nullable="false"/>
+    <col title="Kết quả xếp loại" type="string"  length="50" nullable="false"/>
+    <col title="Bệnh gặp phải" type="string"  length="500" nullable="false"/>
+</root>
